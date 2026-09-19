@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 function PageLayout() {
     return (
-        <div className="flex min-h-screen flex-col bg-[#f7f2e8] text-[#30261f]">
+        <div className="flex min-h-screen flex-col bg-[var(--color-background)] text-[var(--color-text)]">
             <Navbar />
 
             <main className="flex-1">
