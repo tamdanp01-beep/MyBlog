@@ -1,12 +1,6 @@
 import { Link } from "react-router";
 
-function formatDate(date) {
-    return new Intl.DateTimeFormat("en-GB", {
-        day: "numeric",
-        month: "long",
-        year: "numeric",
-    }).format(new Date(date));
-}
+import { formatDate } from "../../utils/formatDate";
 
 function BlogCard({ post }) {
     return (
