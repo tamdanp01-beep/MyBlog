@@ -72,4 +72,6 @@ function RecentPostsSection() {
     );
 }
 
+/* This displays a maximum of three blog entries on each Home page.
+*/
 export default RecentPostsSection;
