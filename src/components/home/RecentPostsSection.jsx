@@ -5,7 +5,7 @@ import { blogPosts } from "../../data/blogPosts";
 import BlogCard from "../blog/BlogCard";
 import Pagination from "../blog/Pagination";
 
-const POSTS_PER_PAGE = 3;
+const POSTS_PER_PAGE = 2;
 
 function RecentPostsSection() {
     const [currentPage, setCurrentPage] = useState(1);
@@ -51,12 +51,6 @@ function RecentPostsSection() {
                 </Link>
             </div>
 
-            <Pagination
-                currentPage={currentPage}
-                totalPages={totalPages}
-                onPageChange={changePage}
-            />
-
             <div className="my-10">
                 {visiblePosts.map((post) => (
                     <BlogCard key={post.id} post={post} />
@@ -72,6 +66,6 @@ function RecentPostsSection() {
     );
 }
 
-/* This displays a maximum of three blog entries on each Home page.
+/* This displays a maximum of two blog entries on each Home page.
 */
 export default RecentPostsSection;

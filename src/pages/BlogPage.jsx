@@ -4,7 +4,7 @@ import BlogList from "../components/blog/BlogList";
 import Pagination from "../components/blog/Pagination";
 import { blogPosts } from "../data/blogPosts";
 
-const POSTS_PER_PAGE = 5;
+const POSTS_PER_PAGE = 4;
 
 function BlogPage() {
     const [currentPage, setCurrentPage] = useState(1);
