@@ -72,9 +72,9 @@ export const profile = {
   ],
 
   links: {
-    github: "https://github.com/tamdanp01-beep",
-    linkedin: "https://www.linkedin.com/in/tam-dan-pham-1b65081b3",
-    email: "tamdanp01@gmail.com",
+    github: "",
+    linkedin: "",
+    email: "",
     cv: "/cv/CV_tam_dan.pdf",
   },
 };
